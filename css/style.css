@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* 16px = 100% = 1em */
+/* font size / 16*/
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 14px auto;
+  padding-top: 50px;
+  line-height: 1;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #11999E;
+}
+
+
+h4 {
+  position: relative;
+  top: 20px;
+}
+p {
+  font-family: serif;
+  font-size: 24px;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+
+
+
+
+
+/*-------------CLASSES----------------------------*/
+.top-container {
+  background-color: #eaf6f6;
+  padding: 0;
+  position: relative;
+}
+
+
+.top-cloud {
+  left: 480px;
+  position: relative;
+  top: 80px;
+  width: 150px;
+}
+
+
+.middle-cloud {
+  position: relative;
+  top: 10px;
+  right: 170px;
+  width: 150px;
+}
+
+.name {
+  position: relative;
+  top: 40px;
+}
+
+
+.bottom-cloud {
+  position: relative;
+  right: 400px;
+  bottom: 100px;
+  width: 150px;
+}
+
+
+.icon {
+  margin-right: 130px;
+  margin-top: 70px;
+  width: 150px;
+}
+
+
+.middle-container {
+  margin:100px;
+}
+
+
+.intro {
+  width: 40%;
+  margin: auto;
+
+}
+
+
+.break{
+  width: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+
+.skill-row {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  padding: 30px;
+  width: 50%;
+
+}
+
+.img-code-1 {
+  width: 25%;
+}
+
+.img-code-2 {
+  width: 25%;
+}
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  height: 200px;
+}
+
+.break_2 {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+
+.contact-me {
+  padding: 50px;
+}
+
+.email_us {
+  width: 50%;
+  margin: 40px auto;
+}
+
+
+.btn {
+  background-color: #0ec1c8;
+  border: 1px green;
+  border-radius: 10px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover {
+  background-color: white;
+  color: #0ec1c8;
+}
+
+
+.footer-link {
+  color: #11999E;
+  margin: 20px;
+  position: relative;
+  top: 50px;
+  text-decoration: none;
+  font-size:20px;
+}
+
+.footer-link:hover {
+color: white;
+}
+
+.copyright {
+  position: relative;
+  top: 80px;
+  color:white;
+  font-size: 16px
+
+}
